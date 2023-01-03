@@ -1,5 +1,5 @@
 public class Teksty{
-    public final String[] tablicaLancuchow;
+    private final String[] tablicaLancuchow;
 
     public Teksty(String[] tablicaLancuchow) {
         this.tablicaLancuchow = tablicaLancuchow;
