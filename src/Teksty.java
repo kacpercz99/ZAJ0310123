@@ -9,7 +9,7 @@ public class Teksty{
         return new Iterator();
     }
 
-    public class Iterator implements StringsIterator{
+    private class Iterator implements StringsIterator{
         private int i = 0;
         private final int length = tablicaLancuchow.length;
         @Override
